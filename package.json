@@ -1,0 +1,23 @@
+{
+  "name": "npm-package-ts-template",
+  "version": "1.0.0",
+  "description": "Template for NPM package written in typescript",
+  "homepage": "https://github.com/wpatter6/npm-package-ts-template#readme",
+  "bugs": {
+    "url": "https://github.com/wpatter6/npm-package-ts-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpatter6/npm-package-ts-template.git"
+  },
+  "license": "MIT",
+  "author": "wpatter6",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm run build && npm publish --access public"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
